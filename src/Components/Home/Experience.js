@@ -35,10 +35,11 @@ export default function Experience() {
                             duration={5}
                             decimals={0}
                             delay={0}
+                            suffix=" YEARS"
                             >
                             {({ countUpRef, start }) => (
                             <VisibilitySensor onChange={start} delayedCall>
-                                <h1 ref={countUpRef}>YEARS</h1>
+                                <h1 ref={countUpRef}></h1>
                             </VisibilitySensor>
 
                             )}

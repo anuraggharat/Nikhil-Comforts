@@ -4,6 +4,8 @@ import Services from '../Components/Home/Services'
 import Why from '../Components/Home/Why'
 import Experience from '../Components/Home/Experience'
 import Partner from '../Components/Home/Partner'
+import Testimonials from '../Components/Home/Testimonials'
+import Brands from '../Components/Home/Brands'
 
 export default function Home() {
     return (
@@ -13,6 +15,8 @@ export default function Home() {
             <Why />
             <Experience />
             <Partner />
+            <Testimonials />
+            <Brands />
         </div>
     )
 }
