@@ -11,3 +11,13 @@ body{
 .text-first{
   color: var(--primary-blue);
 }
+.firstparallax{
+  background: url('https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+  background-attachment: fixed;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px !important;
+  background-color: antiquewhite;
+}
