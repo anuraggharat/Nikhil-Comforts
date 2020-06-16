@@ -82,7 +82,7 @@ const MainNavbar = (props) => {
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink href="#">ABOUT US</NavLink>
+              <NavLink href="/aboutus">ABOUT US</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>

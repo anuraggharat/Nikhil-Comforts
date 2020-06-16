@@ -5,6 +5,8 @@ import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer';
 import Home from './Pages/Home';
+import Aboutus from './Pages/Aboutus'
+import Services from './Components/Home/Services';
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route to="/" component={Home} />
+          <Route path="/" exact component={Home} />
+          <Route path="/aboutus"  exact component={Aboutus} />
+          <Route path="services" component={Services} />
         </Switch>
         <Footer />
       </Router>
