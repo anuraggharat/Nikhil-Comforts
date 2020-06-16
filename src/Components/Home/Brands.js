@@ -17,7 +17,10 @@ export default function Brands() {
         { width: 1750, itemsToShow: 4 },
       ]
     return (
-        <section>
+        <section className="pb-5"> 
+            <div className="container text-center p-5">
+                <h2>Brands we have worked with!</h2>
+            </div>
             <div className="container">
                 <div className="container">
                 <Carousel itemsToShow={2} breakPoints={breakPoints} itemPadding={[10, 50]}  enableAutoPlay autoPlaySpeed={1500}>

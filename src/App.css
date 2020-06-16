@@ -1,10 +1,12 @@
 :root{
   --primary-blue:#192a56
 }
-
 body{
   box-sizing: border-box;
   overflow-x: hidden;
+}
+p{
+  font-size: .9rem;
 }
 li{
   list-style: none;
@@ -23,5 +25,17 @@ li{
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px !important;
-  background-color: antiquewhite;
+}
+.bg-white-gradient{
+  background-color: white;
+  opacity: .92;
+}
+.statement{
+  background: url('https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh !important;
 }
