@@ -52,7 +52,7 @@ const HomeSlider = (props) => {
         className="w-100 bg-primary"
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
-        key={item.src}
+        key={item.caption}
       >
         <img src={item.src} alt={item.altText} className="w-100" />
         <CarouselCaption captionText={item.caption} captionHeader={item.caption} />

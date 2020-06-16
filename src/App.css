@@ -1,0 +1,10 @@
+:root{
+  --primary-blue:#192a56
+}
+
+body{
+  box-sizing: border-box;
+}
+.bg-first{
+  background-color:var(--primary-blue)  ;
+}
