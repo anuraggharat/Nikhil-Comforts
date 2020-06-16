@@ -4,7 +4,7 @@ import Card from '../Card'
 
 export default function Services() {
     return (
-        <section className="bg-white text-center py-5 px-5">
+        <section className="bg-white py-5 px-5">
             <Heading title="Our Services" />
             <div className="container px-5">
                 <div className="row px-5">

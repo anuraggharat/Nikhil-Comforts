@@ -8,3 +8,6 @@ body{
 .bg-first{
   background-color:var(--primary-blue)  ;
 }
+.text-first{
+  color: var(--primary-blue);
+}
