@@ -21,7 +21,7 @@ const MainNavbar = (props) => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
+      <Navbar color="light" light expand="md" fixed="top" className="py-3">
         <NavbarBrand href="/">Nikhil Comforts</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

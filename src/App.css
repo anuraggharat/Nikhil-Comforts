@@ -14,9 +14,13 @@ li{
 .bg-first{
   background-color:var(--primary-blue)  ;
 }
+.home-slider-image{
+  height: 100vh;
+}
 .text-first{
   color: var(--primary-blue);
 }
+
 .firstparallax{
   background: url('https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
   background-attachment: fixed;
@@ -39,3 +43,66 @@ li{
   background-size: cover;
   height: 75vh !important;
 }
+
+
+.trustedMechCarousel{
+  width: 100%;
+  height: 100%;
+}
+
+.carouselCont{
+  background-color: #f1f2ed;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+}
+
+.ImgCont{
+  float: left !important;
+  width: 100%;
+}
+.TextCont{
+  position:absolute;
+  height: 100%;
+  left: 4%;
+  top: 40%;
+  align-items: center;
+}
+.carousel-caption{
+  position: relative !important;
+  height: 100% !important;
+  width: 75% !important;
+  text-align: left;
+}
+.TextCont p{
+  color: white !important;
+  font-size: 50px !important;
+}
+.TextCont>button{
+  top: 30% !important;
+  z-index: 5 !important;
+  left: 0%;
+  margin-left: 100px;
+  position: absolute !important;
+}
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: white;
+} */

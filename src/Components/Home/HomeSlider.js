@@ -4,24 +4,25 @@ import {
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-  CarouselCaption
+  CarouselCaption,
+  Button
 } from 'reactstrap';
 
 const items = [
   {
     src: 'https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
     altText: 'Slide 1',
-    caption: 'Slide 1'
+    caption: 'Innovating your life comfortably..'
   },
   {
     src:'https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
     altText: 'Slide 2',
-    caption: 'Slide 2'
+    caption: 'Innovating your life comfortably..'
   },
   {
     src: 'https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
     altText: 'Slide 3',
-    caption: 'Slide 3'
+    caption: 'Innovating your life comfortably..'
   }
 ];
 
@@ -49,13 +50,21 @@ const HomeSlider = (props) => {
   const slides = items.map((item) => {
     return (
       <CarouselItem
-        className="w-100 bg-primary"
+        className="w-100"
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
         key={item.caption}
       >
-        <img src={item.src} alt={item.altText} className="w-100" />
-        <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+        
+        <div className='carouselCont'>
+          <div className='ImgCont'>
+          <img src={item.src} alt={item.altText} className="w-100 home-slider-image" />
+          </div>
+          <div className='TextCont'>
+            <CarouselCaption captionHeader={item.header}  captionText={item.caption}  />
+              <button className="btn btn-primary px-4">Learn More</button>       
+            </div>
+        </div>
       </CarouselItem>
     );
   });
