@@ -9,6 +9,7 @@ import Aboutus from './Pages/Aboutus'
 import Services from './Pages/Services';
 import Projects from './Pages/Projects';
 import ScrollToTop from './Components/ScrollToTop';
+import Blogs from './Pages/Blogs';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
           <Route path="/aboutus"  exact component={Aboutus} />
           <Route path="/projects"  exact component={Projects} />
           <Route path="/services" component={Services} />
+          <Route path="/blogs" component={Blogs} />
+
         </Switch>
         <Footer />
         </ScrollToTop>
