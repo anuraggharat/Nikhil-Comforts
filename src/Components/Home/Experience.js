@@ -10,7 +10,7 @@ export default function Experience() {
             <div className='container p-5 text-center text-white'>
                 <div className="row p-5">
                     <div className="col-lg-3 col-sm-6">
-                        <div className="row text-center text-second">
+                        <div className="row text-left text-second">
                             <CountUp
                             start={0}
                             end={1500}
@@ -25,7 +25,7 @@ export default function Experience() {
 
                             )}
                             </CountUp></div>
-                        <div className="row"><h4>Projects Completed</h4></div>
+                        <div className="text-left"><h4>Projects Completed</h4></div>
                     </div>
                     <div className="col-lg-3 col-sm-6">
                         <div className="row text-second">
@@ -44,7 +44,7 @@ export default function Experience() {
 
                             )}
                             </CountUp></div>
-                        <div className="row"><h4>Years Of Experience</h4></div>
+                        <div className="text-left"><h4>Years Of Experience</h4></div>
                     </div>
                     <div className="col-lg-3 col-sm-6">
                         <div className="row text-second">
@@ -63,7 +63,7 @@ export default function Experience() {
 
                             )}
                             </CountUp></div>
-                        <div className="row"><h4>Clients Served</h4></div>
+                        <div className="text-left"><h4>Clients Served</h4></div>
                     </div>
                     <div className="col-lg-3 col-sm-6">
                         <div className="row text-second">
@@ -82,7 +82,7 @@ export default function Experience() {
 
                             )}
                             </CountUp></div>
-                        <div className="row"><h4>Cities Served </h4></div>
+                        <div className="text-left"><h4>Cities Served </h4></div>
                     </div>
                 </div>
             </div>
