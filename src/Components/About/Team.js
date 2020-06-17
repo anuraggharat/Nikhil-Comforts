@@ -19,11 +19,11 @@ export default function Team() {
     return (
         <section className="pb-5"> 
             <div className="container text-center p-5">
-                <h2>Brands we have worked with!</h2>
+                <h2>Our Team</h2>
             </div>
             <div className="container">
                 <div className="row">
-                <Carousel itemsToShow={2} breakPoints={breakPoints}   >
+                <Carousel itemsToShow={2} breakPoints={breakPoints}  focusOnSelect={false} enableAutoPlay autoPlaySpeed={1500} >
                     <div className="col-lg-12 text-center" >
                         <img alt="user" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" className="rounded-circle mx-auto ml-5" height="100px" width="100px" />
                         <h5 className="mt-3">Maria Cury</h5>

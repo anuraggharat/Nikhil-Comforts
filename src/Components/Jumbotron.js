@@ -9,9 +9,8 @@ const Example = (props) => {
       <Jumbotron>
         <h1 className="display-4 font-weight-bold ml-3">About Us</h1>
         <Breadcrumb>
-        <BreadcrumbItem><a href="#">Home</a></BreadcrumbItem>
-        <BreadcrumbItem><a href="#">Library</a></BreadcrumbItem>
-        <BreadcrumbItem active>Data</BreadcrumbItem>
+        <BreadcrumbItem><a href="/">Home</a></BreadcrumbItem>
+        <BreadcrumbItem active>About us</BreadcrumbItem>
       </Breadcrumb>
       </Jumbotron>
     </div>
