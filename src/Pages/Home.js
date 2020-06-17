@@ -4,7 +4,7 @@ import Services from '../Components/Home/Services'
 import Why from '../Components/Home/Why'
 import Experience from '../Components/Home/Experience'
 import Partner from '../Components/Home/Partner'
-import Testimonials from '../Components/Home/Testimonials'
+// import Testimonials from '../Components/Home/Testimonials'
 import Brands from '../Components/Home/Brands'
 import Statement from '../Components/Home/Statement'
 
