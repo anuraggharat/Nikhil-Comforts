@@ -1,10 +1,6 @@
 import Carousel from 'react-elastic-carousel'
 import React from 'react'
-import pic1 from '../../Images/pic1.png'
-import pic2 from '../../Images/pic2.png'
-import pic3 from '../../Images/pic3.jpg'
-import pic4 from '../../Images/pic4.png'
-import pic5 from '../../Images/pic5.png'
+
 
 
 export default function Team() {

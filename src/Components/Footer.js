@@ -60,16 +60,16 @@ export default function Footer() {
                     </div>
                     <div className="row px-5 mt-5">
                     <div className="container d-flex justify-content-around">
-                    <a href="">Privacy Policy</a>
-                    <a href="">Terms of usage</a>
-                    <a href="">2018 Nikhil Comforts</a>
+                    <a href="/" rel="noopener noreferrer">Privacy Policy</a>
+                    <a href="/" rel="noopener noreferrer">Terms of usage</a>
+                    <a href="/" rel="noopener noreferrer">2018 Nikhil Comforts</a>
                     </div>
                     </div>
                     
                 </div>
             </footer>
             <div className="text-center w-100 bg-black">
-                <p className="m-0 p-0">Designed by <a href=""className="m-0 p-0 text-success">Edunomics</a></p>
+                <p className="m-0 p-0">Designed by <a href="https://edunomics.in/" target="_blank" rel="noopener noreferrer" className="m-0 p-0 text-success">Edunomics</a></p>
             </div>
         </section>
     )

@@ -1,10 +1,7 @@
 import Carousel from 'react-elastic-carousel'
 import React from 'react'
-import pic1 from '../../Images/pic1.png'
-import pic2 from '../../Images/pic2.png'
 import pic3 from '../../Images/pic3.jpg'
-import pic4 from '../../Images/pic4.png'
-import pic5 from '../../Images/pic5.png'
+
 
 
 export default function Brands() {
@@ -24,12 +21,12 @@ export default function Brands() {
             <div className="container">
                 <div className="container">
                 <Carousel itemsToShow={2} breakPoints={breakPoints} itemPadding={[10, 50]}  enableAutoPlay autoPlaySpeed={1500}>
-           <img src={pic3} className="brands-img img-fluid "></img>
-           <img src={pic3} className="brands-img img-fluid "></img>
-           <img src={pic3} className="brands-img img-fluid "></img>
-           <img src={pic3} className="brands-img img-fluid "></img>
-           <img src={pic3} className="brands-img img-fluid "></img>
-            <img src={pic3} className="brands-img img-fluid "></img>
+           <img src={pic3} className="brands-img img-fluid "  alt="brand "></img>
+           <img src={pic3} className="brands-img img-fluid "  alt="brand "></img>
+           <img src={pic3} className="brands-img img-fluid "  alt="brand "></img>
+           <img src={pic3} className="brands-img img-fluid "  alt="brand "></img>
+           <img src={pic3} className="brands-img img-fluid "  alt="brand "></img>
+            <img src={pic3} className="brands-img img-fluid "  alt="brand "></img>
            </Carousel> 
                 </div>
             </div>

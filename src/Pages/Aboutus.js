@@ -22,7 +22,7 @@ export default function Aboutus() {
               <div className="row py-5">
                 <div className="col-lg-6 col-sm-12 p-4">
                 <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen title="About Us"></iframe>
                 </div>
                 </div>
                 <div className="col-lg-6 col-sm-12 p-4">
@@ -60,10 +60,10 @@ export default function Aboutus() {
                   </div>
                   <div className="row mt-5">
                     <div className="col-lg-6">
-                      <img src={Aboutimg2} height="200px" alt="about image 2" className="w-100" />
+                      <img src={Aboutimg2} height="200px" alt="about  2" className="w-100" />
                     </div>
                     <div className="col-lg-6">
-                      <img src={Aboutimg3} alt="about image 3" height="200px" className="w-100"/>
+                      <img src={Aboutimg3} alt="about  3" height="200px" className="w-100"/>
                     </div>
                   </div>
                 </div>

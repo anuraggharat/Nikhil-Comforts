@@ -1,5 +1,4 @@
 import React from 'react'
-import {FcServices} from 'react-icons/fc'
 
 export default function HomeCard({imgsource,title}) {
     return (

@@ -5,7 +5,6 @@ import {
   CarouselControl,
   CarouselIndicators,
   CarouselCaption,
-  Button
 } from 'reactstrap';
 
 const items = [
@@ -53,7 +52,7 @@ const HomeSlider = (props) => {
         className="w-100"
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
-        key={item.caption}
+        key={item.altText}
       >
         
         <div className='carouselCont'>

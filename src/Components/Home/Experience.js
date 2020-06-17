@@ -20,7 +20,7 @@ export default function Experience() {
                             >
                             {({ countUpRef, start }) => (
                             <VisibilitySensor onChange={start} delayedCall>
-                                <h1 ref={countUpRef} className="display-3 font-weight-bolder"></h1>
+                                <h1 ref={countUpRef} className="display-3 font-weight-bolder">.</h1>
                             </VisibilitySensor>
 
                             )}
@@ -39,7 +39,7 @@ export default function Experience() {
                             >
                             {({ countUpRef, start }) => (
                             <VisibilitySensor onChange={start} delayedCall>
-                                <h1 ref={countUpRef}  className="display-3 font-weight-bolder"></h1>
+                                <h1 ref={countUpRef}  className="display-3 font-weight-bolder">.</h1>
                             </VisibilitySensor>
 
                             )}
@@ -58,7 +58,7 @@ export default function Experience() {
                             >
                             {({ countUpRef, start }) => (
                             <VisibilitySensor onChange={start} delayedCall>
-                                <h1 ref={countUpRef} className="display-3 font-weight-bolder"></h1>
+                                <h1 ref={countUpRef} className="display-3 font-weight-bolder">.</h1>
                             </VisibilitySensor>
 
                             )}
@@ -77,7 +77,7 @@ export default function Experience() {
                             >
                             {({ countUpRef, start }) => (
                             <VisibilitySensor onChange={start} delayedCall>
-                                <h1 ref={countUpRef} className="display-3 font-weight-bolder"></h1>
+                                <h1 ref={countUpRef} className="display-3 font-weight-bolder">.</h1>
                             </VisibilitySensor>
 
                             )}
