@@ -99,7 +99,7 @@ const MainNavbar = (props) => {
               <NavLink href="/aboutus">ABOUT US</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/aboutus">BLOGS</NavLink>
+              <NavLink href="/blogs">BLOGS</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/aboutus">CAREER</NavLink>

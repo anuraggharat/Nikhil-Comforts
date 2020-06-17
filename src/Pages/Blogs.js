@@ -41,15 +41,14 @@ export default function Blogs() {
                             </div>
                             <div className="mt-5">
                                 <h2>Archives</h2>
-                            <ListGroup flush>
-                            <ListGroupItem className="justify-content-between">Cras justo odio <Badge pill>14</Badge></ListGroupItem>
-                            <ListGroupItem className="justify-content-between">Dapibus ac facilisis in <Badge pill>2</Badge></ListGroupItem>
-                            <ListGroupItem className="justify-content-between">Morbi leo risus <Badge pill>1</Badge></ListGroupItem>
-                            <ListGroupItem className="justify-content-between">Cras justo odio <Badge pill>14</Badge></ListGroupItem>
-                            <ListGroupItem className="justify-content-between">Dapibus ac facilisis in <Badge pill>2</Badge></ListGroupItem>
-                            <ListGroupItem className="justify-content-between">Morbi leo risus <Badge pill>1</Badge></ListGroupItem>
-                            
-                            </ListGroup>
+                                <ListGroup flush>
+                                <ListGroupItem className="justify-content-between">Cras justo odio <Badge pill>14</Badge></ListGroupItem>
+                                <ListGroupItem className="justify-content-between">Dapibus ac <Badge pill>2</Badge></ListGroupItem>
+                                <ListGroupItem className="justify-content-between">Morbi leo risus <Badge pill>1</Badge></ListGroupItem>
+                                <ListGroupItem className="justify-content-between">Cras justo odio <Badge pill>14</Badge></ListGroupItem>
+                                <ListGroupItem className="justify-content-between">Dapibus ac <Badge pill>2</Badge></ListGroupItem>
+                                <ListGroupItem className="justify-content-between">Morbi leo risus <Badge pill>1</Badge></ListGroupItem>
+                                </ListGroup>
                             </div>
                         </div>
 
