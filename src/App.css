@@ -1,5 +1,6 @@
 :root{
-  --primary-blue:#192a56
+  --primary-blue:#192a56;
+  --secondary-color:#25CCF7;
 }
 body{
   box-sizing: border-box;
@@ -8,7 +9,6 @@ body{
 
 /* colors */
 .bg-gradient-blue{
-  /* background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); */
   background-image: linear-gradient(to left, #00c6fb 0%, #005bea 100%);
 }
 .bg-gradient-grey{
@@ -30,7 +30,14 @@ li{
 .text-first{
   color: var(--primary-blue);
 }
-
+.text-second{
+  color: var(--secondary-color);
+}
+.overlay{
+  background-color: #172c4e;
+  height: 100%;
+  opacity: .8;
+}
 .firstparallax{
   background: url('https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
   background-attachment: fixed;

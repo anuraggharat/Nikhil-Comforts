@@ -10,7 +10,7 @@ export default function Experience() {
             <div className='container p-5 text-center text-white'>
                 <div className="row p-5">
                     <div className="col-lg-3 col-sm-6">
-                        <div className="row text-center text-primary">
+                        <div className="row text-center text-second">
                             <CountUp
                             start={0}
                             end={1500}
@@ -20,34 +20,34 @@ export default function Experience() {
                             >
                             {({ countUpRef, start }) => (
                             <VisibilitySensor onChange={start} delayedCall>
-                                <h1 ref={countUpRef}></h1>
+                                <h1 ref={countUpRef} className="display-3 font-weight-bolder"></h1>
                             </VisibilitySensor>
 
                             )}
                             </CountUp></div>
-                        <div className="row"><h6>Projects Completed</h6></div>
+                        <div className="row"><h4>Projects Completed</h4></div>
                     </div>
                     <div className="col-lg-3 col-sm-6">
-                        <div className="row text-primary">
+                        <div className="row text-second">
                             <CountUp
                             start={0}
                             end={21}
                             duration={5}
                             decimals={0}
                             delay={0}
-                            suffix=" YEARS"
+                            
                             >
                             {({ countUpRef, start }) => (
                             <VisibilitySensor onChange={start} delayedCall>
-                                <h1 ref={countUpRef}></h1>
+                                <h1 ref={countUpRef}  className="display-3 font-weight-bolder"></h1>
                             </VisibilitySensor>
 
                             )}
                             </CountUp></div>
-                        <div className="row"><h6>Of Experience</h6></div>
+                        <div className="row"><h4>Years Of Experience</h4></div>
                     </div>
                     <div className="col-lg-3 col-sm-6">
-                        <div className="row text-primary">
+                        <div className="row text-second">
                             <CountUp
                             start={0}
                             end={100}
@@ -58,15 +58,15 @@ export default function Experience() {
                             >
                             {({ countUpRef, start }) => (
                             <VisibilitySensor onChange={start} delayedCall>
-                                <h1 ref={countUpRef}></h1>
+                                <h1 ref={countUpRef} className="display-3 font-weight-bolder"></h1>
                             </VisibilitySensor>
 
                             )}
                             </CountUp></div>
-                        <div className="row"><h6>Clients Served</h6></div>
+                        <div className="row"><h4>Clients Served</h4></div>
                     </div>
                     <div className="col-lg-3 col-sm-6">
-                        <div className="row text-primary">
+                        <div className="row text-second">
                             <CountUp
                             start={0}
                             end={10}
@@ -77,12 +77,12 @@ export default function Experience() {
                             >
                             {({ countUpRef, start }) => (
                             <VisibilitySensor onChange={start} delayedCall>
-                                <h1 ref={countUpRef}>+</h1>
+                                <h1 ref={countUpRef} className="display-3 font-weight-bolder"></h1>
                             </VisibilitySensor>
 
                             )}
                             </CountUp></div>
-                        <div className="row"><h6>Cities Served </h6></div>
+                        <div className="row"><h4>Cities Served </h4></div>
                     </div>
                 </div>
             </div>

@@ -14,11 +14,12 @@ export default function Home() {
             <HomeSlider />
             <Services />
             <Why />
-            <Experience />
-            <Partner />
+            <Experience />     
             <Testimonials />
             <Statement />
             <Brands />
+            <Partner />
+
         </div>
     )
 }
