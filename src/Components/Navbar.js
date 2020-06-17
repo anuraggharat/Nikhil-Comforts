@@ -22,7 +22,7 @@ const MainNavbar = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md" fixed="top" className="py-3">
-        <NavbarBrand href="/">Nikhil Comforts</NavbarBrand>
+        <NavbarBrand href="/"><span className="logo">Nikhil Comforts</span></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>

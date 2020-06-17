@@ -1,4 +1,9 @@
 import React, { useState } from 'react';
+import slider1 from '../../Images/slider1.JPG'
+import slider2 from '../../Images/slider2.jpg'
+import slider3 from '../../Images/slider3.JPG'
+
+
 import {
   Carousel,
   CarouselItem,
@@ -9,17 +14,17 @@ import {
 
 const items = [
   {
-    src: 'https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+    src: slider1,
     altText: 'Slide 1',
     caption: 'Innovating your life comfortably..'
   },
   {
-    src:'https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+    src:slider2,
     altText: 'Slide 2',
-    caption: 'Innovating your life comfortably..'
+    caption: 'We at Nikhil Comforts enable all  your HVAC,MEP.'
   },
   {
-    src: 'https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+    src: slider3,
     altText: 'Slide 3',
     caption: 'Innovating your life comfortably..'
   }
@@ -61,7 +66,7 @@ const HomeSlider = (props) => {
           </div>
           <div className='TextCont'>
             <CarouselCaption captionHeader={item.header}  captionText={item.caption}  />
-              <button className="btn btn-primary px-4">Learn More</button>       
+              <button className="btn btn-primary px-4" onClick={()=>alert("clicked")}>Learn More</button>       
             </div>
         </div>
       </CarouselItem>

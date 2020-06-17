@@ -21,6 +21,12 @@ p{
 li{
   list-style: none;
 }
+.logo{
+  font-family: fantasy;
+  color:var(--primary-blue);
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
 .bg-first{
   background-color:var(--primary-blue)  ;
 }
