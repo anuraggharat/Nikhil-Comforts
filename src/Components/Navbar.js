@@ -49,7 +49,6 @@ const MainNavbar = (props) => {
                 INTERIORS
                 </Link>   
                 </DropdownItem>
-                <DropdownItem divider />
                 <DropdownItem>
                 <Link to="/services">
                 ENERGY CONSULTATION
@@ -99,58 +98,13 @@ const MainNavbar = (props) => {
             <NavItem>
               <NavLink href="/aboutus">ABOUT US</NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                BLOGS
-              </DropdownToggle>
-              <DropdownMenu right>
-              <DropdownItem>
-                HVAC
-                </DropdownItem>
-                <DropdownItem>
-                MEP
-                </DropdownItem>
-                <DropdownItem>
-                INTERIORS
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  ENERGY CONSULTATION
-                </DropdownItem>
-                <DropdownItem>
-                  RETRO FITTING
-                </DropdownItem> 
-               <DropdownItem>
-                PUBLIC HEALTH ENGINEERING BMS
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                CAREER
-              </DropdownToggle>
-              <DropdownMenu right>
-              <DropdownItem>
-                HVAC
-                </DropdownItem>
-                <DropdownItem>
-                MEP
-                </DropdownItem>
-                <DropdownItem>
-                INTERIORS
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  ENERGY CONSULTATION
-                </DropdownItem>
-                <DropdownItem>
-                  RETRO FITTING
-                </DropdownItem> 
-               <DropdownItem>
-                PUBLIC HEALTH ENGINEERING BMS
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <NavItem>
+              <NavLink href="/aboutus">BLOGS</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/aboutus">CAREER</NavLink>
+            </NavItem>
+               
           </Nav>
         </Collapse>
       </Navbar>

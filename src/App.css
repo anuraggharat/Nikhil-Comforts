@@ -66,9 +66,47 @@ li{
   background-size: cover;
   height: 75vh !important;
 }
-
-
-.trustedMechCarousel{
+.slider1{
+  background: url('./Images/slider1.JPG');
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slider2{
+  background: url('./Images/slider2.jpg');
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slider3{
+  background: url('./Images/slider3.JPG');
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.homepage-container{
+  padding-top: 35vh;
+  text-align: center;
+}
+.btn-first{
+  background-color: var(--secondary-color);
+  color:white;
+}
+.btn-first:hover{
+  background-color:white;
+  transition: .5s ease;
+  color:var(--secondary-color);
+}
+.btn-carousel{
+  z-index: 1;
+}
+/* .trustedMechCarousel{
   width: 100%;
   height: 100%;
 }
@@ -108,7 +146,7 @@ li{
   margin-left: 100px;
   position: absolute !important;
 }
-
+ */
 .advertisement{
   background-image: url('https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
   width: 100%;

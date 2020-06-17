@@ -1,9 +1,4 @@
 import React, { useState } from 'react';
-import slider1 from '../../Images/slider1.JPG'
-import slider2 from '../../Images/slider2.jpg'
-import slider3 from '../../Images/slider3.JPG'
-
-
 import {
   Carousel,
   CarouselItem,
@@ -14,19 +9,22 @@ import {
 
 const items = [
   {
-    src: slider1,
+    src: "slider1",
     altText: 'Slide 1',
-    caption: 'Innovating your life comfortably..'
+    caption: '',
+    text:'Innovating your life comfortably...'
   },
   {
-    src:slider2,
+    src:"slider2",
     altText: 'Slide 2',
-    caption: 'We at Nikhil Comforts enable all  your HVAC,MEP.'
+    caption: '',
+    text:'We at Nikhil Comforts enable all your HVAC,MEP & Interiors related development peacefully !!'
   },
   {
-    src: slider3,
+    src: "slider3",
     altText: 'Slide 3',
-    caption: 'Innovating your life comfortably..'
+    caption: '',
+    text:'Innovating your life comfortably...'
   }
 ];
 
@@ -59,16 +57,16 @@ const HomeSlider = (props) => {
         onExited={() => setAnimating(false)}
         key={item.altText}
       >
-        
-        <div className='carouselCont'>
-          <div className='ImgCont'>
-          <img src={item.src} alt={item.altText} className="w-100 home-slider-image" />
+        <div className={item.src}>
+          <div className="container homepage-container ">
+    <h4 className="display-4 text-white font-weight-bold mt-2">{item.text}</h4>
+            <button className="btn btn-first px-4">Learn More.</button>
           </div>
-          <div className='TextCont'>
-            <CarouselCaption captionHeader={item.header}  captionText={item.caption}  />
-              <button className="btn btn-primary px-4" onClick={()=>alert("clicked")}>Learn More</button>       
-            </div>
         </div>
+        <CarouselCaption captionHeader={item.header}  captionText={item.caption}>
+        </CarouselCaption>
+            
+      
       </CarouselItem>
     );
   });
@@ -88,3 +86,6 @@ const HomeSlider = (props) => {
 }
 
 export default HomeSlider;
+
+
+
