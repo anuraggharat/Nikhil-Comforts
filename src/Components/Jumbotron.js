@@ -5,9 +5,9 @@ import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 
 const Example = (props) => {
   return (
-    <div className="mb-0">
+    <div className="mb-0 pb-0">
       <Jumbotron>
-        <h1 className="display-4 font-weight-bold ">About Us</h1>
+        <h1 className="display-4 font-weight-bold ml-3">About Us</h1>
         <Breadcrumb>
         <BreadcrumbItem><a href="#">Home</a></BreadcrumbItem>
         <BreadcrumbItem><a href="#">Library</a></BreadcrumbItem>
