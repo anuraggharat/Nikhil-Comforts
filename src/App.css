@@ -109,6 +109,16 @@ li{
   position: absolute !important;
 }
 
+.advertisement{
+  background-image: url('https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  color: white;
+  text-align: center;
+}
 /* .carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 100px;
