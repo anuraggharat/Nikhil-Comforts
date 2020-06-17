@@ -3,7 +3,7 @@ import { Button } from 'reactstrap'
 
 export default function QuoteBox() {
     return (
-        <section className="p-5 bg-light">
+        <section className="p-5 bg-gradient-grey">
             <div className="container">
                 <div className="container p-5">
                     <div className="row">

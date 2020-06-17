@@ -50,7 +50,7 @@ const Testimonials = (props) => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <div className="container p-5 bg-primary text-white">
+        <div className="container p-5 bg-gradient-blue text-white">
             <div className="row">
                 <div className="col-lg-8">
                     <p className="font-italic">

@@ -1,5 +1,5 @@
 import React from 'react'
-import Jumbotron from '../Components/Jumbotron'
+import { Jumbotron,Breadcrumb, BreadcrumbItem } from 'reactstrap'
 import Aboutimg1 from '../Images/aboutimg1.JPG'
 import Aboutimg2 from '../Images/aboutimg2.jpg'
 import Aboutimg3 from '../Images/aboutimg3.jpg'
@@ -10,7 +10,13 @@ import QuoteBox from '../Components/QuoteBox'
 export default function Aboutus() {
     return (
         <div className="pt-5">
-          <Jumbotron />
+          <Jumbotron title="About Us">
+          <h1 className="display-4 font-weight-bold ml-3">About Us</h1>
+                <Breadcrumb>
+                <BreadcrumbItem><a href="/">Home</a></BreadcrumbItem>
+                <BreadcrumbItem active>About us</BreadcrumbItem>
+                </Breadcrumb>
+            </Jumbotron>
           <section>
             <div className="container py-5">
               <div className="row py-5">
