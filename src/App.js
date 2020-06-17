@@ -8,11 +8,13 @@ import Home from './Pages/Home';
 import Aboutus from './Pages/Aboutus'
 import Services from './Pages/Services';
 import Projects from './Pages/Projects';
+import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
   return (
     <div>
       <Router>
+        <ScrollToTop>
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
@@ -21,6 +23,7 @@ function App() {
           <Route path="/services" component={Services} />
         </Switch>
         <Footer />
+        </ScrollToTop>
       </Router>
 
 

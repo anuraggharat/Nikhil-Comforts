@@ -13,6 +13,7 @@ import {
   DropdownItem,
   NavbarText
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 const MainNavbar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,27 +36,42 @@ const MainNavbar = (props) => {
               </DropdownToggle>
               <DropdownMenu right>
               <DropdownItem>
+                <Link to="/services">
                 HVAC
+                </Link>
                 </DropdownItem>
                 <DropdownItem>
+                <Link to="/services">
                 MEP
+                </Link>
                 </DropdownItem>
                 <DropdownItem>
+                <Link to="/services">
                 INTERIORS
+                </Link>   
                 </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>
-                  ENERGY CONSULTATION
+                <Link to="/services">
+                ENERGY CONSULTATION
+                </Link>
                 </DropdownItem>
                 <DropdownItem>
-                  RETRO FITTING
+                <Link to="/services">
+                RETRO FITTING
+                </Link>
                 </DropdownItem> 
                <DropdownItem>
-                PUBLIC HEALTH ENGINEERING BMS
+               <Link to="/services">
+               PUBLIC HEALTH ENGINEERING BMS
+                </Link>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
-            <UncontrolledDropdown nav inNavbar>
+            <NavItem>
+              <NavLink href="/projects">PROJECTS</NavLink>
+            </NavItem>
+            {/* <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 PROJECTS
               </DropdownToggle>
@@ -80,7 +96,7 @@ const MainNavbar = (props) => {
                 PUBLIC HEALTH ENGINEERING BMS
                 </DropdownItem>
               </DropdownMenu>
-            </UncontrolledDropdown>
+            </UncontrolledDropdown> */}
             <NavItem>
               <NavLink href="/aboutus">ABOUT US</NavLink>
             </NavItem>

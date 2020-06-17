@@ -11,10 +11,10 @@ export default function Services() {
     return (
         <div className="pt-3">
             <Jumbotron>
-            <h1 className="display-4 font-weight-bold ml-3">Projects</h1>
+            <h1 className="display-4 font-weight-bold ml-3">Services</h1>
                 <Breadcrumb>
                 <BreadcrumbItem><a href="/">Home</a></BreadcrumbItem>
-                <BreadcrumbItem active>Projects</BreadcrumbItem>
+                <BreadcrumbItem active>Services</BreadcrumbItem>
                 </Breadcrumb>
             </Jumbotron>
             <section className="py-5">
