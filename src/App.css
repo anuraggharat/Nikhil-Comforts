@@ -129,3 +129,41 @@ li{
   font-size: 55px;
   color: white;
 } */
+
+@media (max-width: 978px) {
+  .container {
+    padding:0;
+    margin:0;
+  }
+  body {
+    padding:0;
+  }
+  .px-5{
+    padding: 0px !important;
+  }
+  .firstparallax{
+    background: url('https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    background-attachment: fixed;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100% !important;
+  }
+  .statement{
+    padding: 20px;
+    text-align: center;
+    background: url('https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100% !important;
+  }
+  .statement>div{
+    width: 100vw !important;
+    padding:0px ;
+    margin: 0px;
+  }
+}

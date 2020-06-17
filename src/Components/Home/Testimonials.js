@@ -53,14 +53,14 @@ const Testimonials = (props) => {
       >
         <div className="container p-5 bg-gradient-blue text-white">
             <div className="row">
-                <div className="col-lg-8">
+                <div className="col-lg-8 col-xs-12">
                     <p className="font-italic">
                     "Lorem Ipsum is imply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is imply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it!"
                     </p>
                     <p><b>Maria Fury , Architect</b></p>
                 </div>
         
-                <div className="col-lg-4 text-center">
+                <div className="col-lg-4 text-center col-xs-12">
                     <div className=" center">
                         <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="username" className="rounded-circle img-responsive w-50 h-50"></img>
                     </div>

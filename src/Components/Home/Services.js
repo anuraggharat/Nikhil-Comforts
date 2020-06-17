@@ -8,22 +8,22 @@ export default function Services() {
             <Heading title="Our Services" />
             <div className="container px-5">
                 <div className="row px-5">
-                    <div className="col-sm-12 col-lg-4">
+                    <div className="col-xs-12 col-lg-4">
                         <Card />                    
                     </div>
-                    <div className="col-sm-12 col-lg-4">
+                    <div className="col-xs-12 col-lg-4">
                         <Card />                    
                     </div>
-                    <div className="col-sm-12 col-lg-4">
+                    <div className="col-xs-12 col-lg-4">
                         <Card />                    
                     </div>
-                    <div className="col-sm-12 col-lg-4">
+                    <div className="col-xs-12 col-lg-4">
                         <Card />                    
                     </div>
-                    <div className="col-sm-12 col-lg-4">
+                    <div className="col-xs-12 col-lg-4">
                         <Card />                    
                     </div>
-                    <div className="col-sm-12 col-lg-4">
+                    <div className="col-xs-12 col-lg-4">
                         <Card />                    
                     </div>
                 </div>
