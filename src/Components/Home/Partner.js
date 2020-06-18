@@ -17,7 +17,7 @@ export default function Partner() {
                             <p>Ground and First Floor, Mulund Utkarsh C.H.S LTD, Sajjanwadi, Mithagar Road Mulund (East), MUmbai-400 081, Ph.No : (+91)22-21675-305 , (+91)22-21675-325</p>
                         </div>
                         <div className="col-lg-4 text-center px-5">
-                            <h4><b>Registered Office</b></h4>
+                            <h4><b>Contact Person</b></h4>
                             <p>MR.NANDKISHORE NEMADE +91 9820149173 , NEMADE@NIKHILCOMFORTS.COM, SALES@NIKHILCOMFORTS.COM</p>
                         </div>
                     </div>

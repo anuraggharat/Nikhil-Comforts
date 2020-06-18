@@ -102,7 +102,7 @@ const MainNavbar = (props) => {
               <NavLink href="/blogs">BLOGS</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/aboutus">CAREER</NavLink>
+              <NavLink href="/career">CAREER</NavLink>
             </NavItem>
                
           </Nav>

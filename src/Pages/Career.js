@@ -2,7 +2,7 @@ import React from 'react'
 import { Jumbotron,Breadcrumb, BreadcrumbItem} from 'reactstrap'
 import {
   Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button
+  CardTitle, Button
 } from 'reactstrap';
 import Avatar from '../Images/avatar.jpg'
 
@@ -10,10 +10,10 @@ export default function Career() {
     return (
         <div className="pt-5">
              <Jumbotron>
-            <h1 className="display-4 font-weight-bold ml-3">Projects</h1>
+            <h1 className="display-4 font-weight-bold ml-3">Career</h1>
                 <Breadcrumb>
                 <BreadcrumbItem><a href="/">Home</a></BreadcrumbItem>
-                <BreadcrumbItem active>Projects</BreadcrumbItem>
+                <BreadcrumbItem active>Career</BreadcrumbItem>
                 </Breadcrumb>
             </Jumbotron>
             <div className="container">
