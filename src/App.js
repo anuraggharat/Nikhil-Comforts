@@ -10,6 +10,9 @@ import Services from './Pages/Services';
 import Projects from './Pages/Projects';
 import ScrollToTop from './Components/ScrollToTop';
 import Blogs from './Pages/Blogs';
+import Blog from './Pages/Blog';
+import Project from './Pages/Project';
+import Career from './Pages/Career';
 
 function App() {
   return (
@@ -22,7 +25,10 @@ function App() {
           <Route path="/aboutus"  exact component={Aboutus} />
           <Route path="/projects"  exact component={Projects} />
           <Route path="/services" component={Services} />
-          <Route path="/blogs" component={Blogs} />
+          <Route path="/blogs" exact component={Blogs} />
+          <Route path="/blogs/:slug"  component={Blog} />
+          <Route path="/projects/:slug" exact component={Project} />
+          <Route path="/career" exact component={Career} />
 
         </Switch>
         <Footer />

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function BlogCard() {
     return (
@@ -13,7 +14,7 @@ export default function BlogCard() {
                 </div>
                 <div className="w-100">
                 <p>Lorem Ipsum is imply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it</p>
-                <p className="text-primary">Continue Reading..</p>
+                <p className="text-primary"><Link className="text-primary" to="/blogs/LoremEpsum">Continue Reading..</Link></p>
                 </div>
             </div>
 
