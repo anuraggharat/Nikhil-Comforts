@@ -1,8 +1,37 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Jumbotron,Breadcrumb, BreadcrumbItem ,ListGroup, ListGroupItem,Badge  } from 'reactstrap'
 import BlogCard from '../Components/Blogs/BlogCard'
+import {getBlogs} from '../API/Blogs'
+import { Spinner } from 'reactstrap';
+
 
 export default function Blogs() {
+
+
+    const[data,setData] = useState([])
+    const [loading,setLoading]=useState(true)
+
+
+    const fetchBlogs=()=>{
+        getBlogs()
+        .then(response=>{
+            // console.log(response)
+            if(response.success){
+                setData(response.data)
+            }
+            else{
+                console.log(response.message)
+            }
+        })
+        .catch(error=>(console.log(error)))
+        .finally(()=>setLoading(false))
+    }
+
+    useEffect(()=>{
+        fetchBlogs()
+    },[])
+
+
     return (
         <div className="mt-5">
             <Jumbotron title="About Us">
@@ -15,15 +44,20 @@ export default function Blogs() {
             <section>
                 <div className="container pb-3">
                     <div className="row">
-                        <div className="col-lg-9 col-sm-12">
-                            <BlogCard />
-                            <BlogCard />
-                            <BlogCard />
-                            <BlogCard />
-                            <BlogCard />
-                            <BlogCard />
-                            <BlogCard />
+                        {loading ? 
+                        (
+                            <div className="col-lg-9 col-sm-12 text-center pt-5">
+                            <Spinner style={{ width: '5rem', height: '5rem' }} type="grow" color="primary" />
+                            </div>
+                            ):(
+                            <div className="col-lg-9 col-sm-12">
+                            {data.map((item)=>(
+                                <BlogCard blog={item} key={item._id} />
+                            )
+                                
+                            )}
                         </div>
+                        )}
                         <div className="col-lg-3 col-sm-12 pt-5">
                             <h2>Categories</h2>
                             <ListGroup flush>
