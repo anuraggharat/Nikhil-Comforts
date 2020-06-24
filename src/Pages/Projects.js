@@ -1,11 +1,38 @@
-import React from 'react'
+import React, { useEffect,useState } from 'react'
 import { Jumbotron,Breadcrumb, BreadcrumbItem,Button  } from 'reactstrap'
 import ProjectCard from '../Components/Projects/ProjectCard'
 import QuoteBox from '../Components/QuoteBox'
+import {getProjects} from '../API/Projects'
+import { Spinner } from 'reactstrap';
 
 
 
 export default function Projects() {
+    
+    const[data,setData] = useState([])
+    const [loading,setLoading]=useState(true)
+
+
+    const fetchProjects=()=>{
+        getProjects()
+        .then(response=>{
+            console.log(response)
+            if(response.success){
+                setData(response.data)
+            }
+            else{
+                console.log(response.message)
+            }
+        })
+        .catch(error=>(console.log(error)))
+        .finally(()=>setLoading(false))
+    }
+
+    useEffect(()=>{
+        fetchProjects()
+    },[])
+
+
     return (
         <div className="pt-5">
             <Jumbotron>
@@ -28,14 +55,20 @@ export default function Projects() {
                     <Button color="light" >FIREFIGHTING</Button>
                     </div>
                     </div>
-                    <div className="row mt-5">
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                    </div>
+                        {
+                            loading ? 
+                            (
+                                <div className="row text-center pt-5">
+                                <Spinner style={{ width: '5rem', height: '5rem' }} type="grow" color="primary" />
+                                </div>
+                            ):
+                            (
+                                <div className="row mt-5">{data.map((item)=>(
+                                    <ProjectCard project={item} key={item._id} />
+                                )
+                                )}</div>
+                            )
+                        }
                 </div>
             </section>
             <QuoteBox />
