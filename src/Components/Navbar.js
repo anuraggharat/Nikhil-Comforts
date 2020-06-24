@@ -12,7 +12,6 @@ import {
   DropdownMenu,
   DropdownItem,
 } from 'reactstrap';
-import { Link } from 'react-router-dom';
 
 const MainNavbar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
