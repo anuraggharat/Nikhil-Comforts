@@ -35,66 +35,41 @@ const MainNavbar = (props) => {
               </DropdownToggle>
               <DropdownMenu right>
               <DropdownItem>
-                <Link to="/services">
-                HVAC
-                </Link>
+              <NavLink href="/hvac">
+                  HVAC
+                  </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                <Link to="/services">
+                <NavLink href="/mep">
                 MEP
-                </Link>
+                  </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                <Link to="/services">
-                INTERIORS
-                </Link>   
+                <NavLink href="/interiors">
+                    Interiors
+                  </NavLink>  
                 </DropdownItem>
                 <DropdownItem>
-                <Link to="/services">
-                ENERGY CONSULTATION
-                </Link>
+                <NavLink href="/energyconsultation">
+                  Energy Consultation
+                  </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                <Link to="/services">
-                RETRO FITTING
-                </Link>
+                  <NavLink href="/retrofitting">
+                  Retro Fitting
+                  </NavLink>
                 </DropdownItem> 
                <DropdownItem>
-               <Link to="/services">
-               PUBLIC HEALTH ENGINEERING BMS
-                </Link>
+               <NavLink href="/bms">
+                  Public Health Engineering BMS
+                  </NavLink>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
               <NavLink href="/projects">PROJECTS</NavLink>
             </NavItem>
-            {/* <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                PROJECTS
-              </DropdownToggle>
-              <DropdownMenu right>
-              <DropdownItem>
-                HVAC
-                </DropdownItem>
-                <DropdownItem>
-                MEP
-                </DropdownItem>
-                <DropdownItem>
-                INTERIORS
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  ENERGY CONSULTATION
-                </DropdownItem>
-                <DropdownItem>
-                  RETRO FITTING
-                </DropdownItem> 
-               <DropdownItem>
-                PUBLIC HEALTH ENGINEERING BMS
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown> */}
+
             <NavItem>
               <NavLink href="/aboutus">ABOUT US</NavLink>
             </NavItem>

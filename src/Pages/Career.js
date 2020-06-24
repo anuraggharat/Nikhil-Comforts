@@ -35,8 +35,8 @@ export default function Career() {
                     <h2>Open Job Positions</h2>
                 </div>
                 <div className="row pb-5 pt-3" >
-                    <div className="col-lg-4 p-2">
-                    <Card className="border-1 text-center">
+                    <div className="col-lg-4 p-3">
+                    <Card className="border-0 text-center shadow-lg">
                     <CardImg top width="200px" height="200px" className="rounded-circle " src={Avatar} alt="Card image cap" />
                     <CardBody>
                     <CardTitle>Software Developer</CardTitle>
@@ -46,8 +46,8 @@ export default function Career() {
                     </Card>
                     </div>
                     
-                    <div className="col-lg-4 p-2">
-                    <Card className="border-1 text-center">
+                    <div className="col-lg-4 p-3">
+                    <Card className="border-0 text-center shadow-lg">
                     <CardImg top width="200px" height="200px" className="rounded-circle " src={Avatar} alt="Card image cap" />
                     <CardBody>
                     <CardTitle>Software Developer</CardTitle>
@@ -57,8 +57,8 @@ export default function Career() {
                     </Card>
                     </div>
                     
-                    <div className="col-lg-4 p-2">
-                    <Card className="border-1 text-center">
+                    <div className="col-lg-4 p-3">
+                    <Card className="border-0 text-center shadow-lg">
                     <CardImg top width="200px" height="200px" className="rounded-circle " src={Avatar} alt="Card image cap" />
                     <CardBody>
                     <CardTitle>Software Developer</CardTitle>

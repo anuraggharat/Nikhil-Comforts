@@ -18,15 +18,15 @@ export default function Projects() {
             <section className="p-5">
                 <div className="container px-5">
                     <div className="row pr-3">
-                    <ButtonGroup className="ml-auto">
-                    <Button color="light" >ALL</Button>
+                    <div className="btngroup">
+                    <Button color="info" >ALL</Button>
                     <Button color="light" >HVAC</Button>
                     <Button color="light" >MEP</Button>
                     <Button color="light" >INTERIORS</Button>
                     <Button color="light" >PHE</Button>
                     <Button color="light" >MBS</Button>
                     <Button color="light" >FIREFIGHTING</Button>
-                    </ButtonGroup>
+                    </div>
                     </div>
                     <div className="row mt-5">
                         <ProjectCard />

@@ -119,10 +119,22 @@ li{
   color: white;
   text-align: center;
 }
+.social-media:hover{
+  color: var(--secondary-color);
+}
+.btngroup{
+  display: flex;
+  flex-direction: row;
+}
+
 @media (max-width: 978px) {
   .container {
     padding:0;
     margin:0;
+  }
+  .btngroup{
+    display: flex;
+    flex-direction: column;
   }
   body {
     padding:0;

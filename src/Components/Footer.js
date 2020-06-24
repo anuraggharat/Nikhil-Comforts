@@ -15,12 +15,10 @@ export default function Footer() {
                             </div>
                             <div className="row">
                                     <h2>
-                                <FaFacebookSquare className="mr-3"/>
-
-                                    
-                                <FaInstagram className="mr-3"/>
-                                <FaLinkedinIn className="mr-3"/>
-                                <FaTwitter /> 
+                                <FaFacebookSquare className="mr-3 social-media"/>   
+                                <FaInstagram className="mr-3 social-media"/>
+                                <FaLinkedinIn className="mr-3 social-media"/>
+                                <FaTwitter className="social-media"/> 
                                 </h2>  
                             </div>
                         </div>
@@ -37,7 +35,7 @@ export default function Footer() {
                                 </ul>
                             </div>
                             <div className="col-lg-4">
-                                <ul className="text-decoration-none">
+                                <ul className="text-decoration-none list-group list-group-flush">
                                     <li>Information</li>
                                     <li>Proejects</li>
                                     <li>About Us</li>
@@ -46,7 +44,7 @@ export default function Footer() {
                                 </ul>
                             </div>
                             <div className="col-lg-4">
-                                <ul className="text-decoration-none">
+                                <ul className="text-decoration-none list-group list-group-flush">
                                     <li>Information</li>
                                     <li>Proejects</li>
                                     <li>About Us</li>
@@ -59,7 +57,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className="row px-5 mt-5">
-                    <div className="container d-flex justify-content-around">
+                    <div className="container d-flex justify-content-around flex-sm-row">
                     <a href="/" rel="noopener noreferrer">Privacy Policy</a>
                     <a href="/" rel="noopener noreferrer">Terms of usage</a>
                     <a href="/" rel="noopener noreferrer">2018 Nikhil Comforts</a>
