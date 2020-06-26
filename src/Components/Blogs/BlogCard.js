@@ -16,8 +16,8 @@ export default function BlogCard({blog}) {
                 <p className="text-muted"><span className="text-info mr-3">{blog.subtitle}</span>{d.toDateString()}</p>
                 </div>
                 <div className="w-100">
-                <p>{blog.blog_content}Lorem Ipsum is imply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it</p>
-                <p className="text-primary"><Link className="text-primary" to="/blogs/LoremEpsum">Continue Reading..</Link></p>
+                <p className="blog-card-text">{blog.blog_content}Lorem Ipsum is imply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it</p>
+                <p className="text-primary"><Link className="text-primary"   to={{pathname:`/blogs/${blog.title}`,blog:blog}}>Continue Reading..</Link></p>
                 </div>
             </div>
 
