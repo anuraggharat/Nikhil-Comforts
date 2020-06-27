@@ -1,5 +1,6 @@
 import React from 'react'
 import { Jumbotron,Breadcrumb, BreadcrumbItem } from 'reactstrap'
+import {API_URL} from '../API/Url'
 
 export default function Blog(props) {
     console.log('====================================');
@@ -29,7 +30,7 @@ export default function Blog(props) {
                     </div>
                     <div className="row">
                         <div className="container text-center">
-                        <img src={`http://localhost:4200/api/getfile/${blog.image_path}`} alt="BLogphoto" className="w-75 h-100 mx-auto" />
+                        <img src={`${API_URL}/getfile/${blog.image_path}`} alt="BLogphoto" className="w-75 h-100 mx-auto" />
                         </div>
                     </div>
                     <div className="row mt-4 text-muted">
