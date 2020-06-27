@@ -63,10 +63,16 @@ export default function Projects() {
                                 </div>
                             ):
                             (
+                            data ? (
                                 <div className="row mt-5">{data.map((item)=>(
                                     <ProjectCard project={item} key={item._id} />
                                 )
                                 )}</div>
+                            ):(
+                                <div className="row mt-5">
+                                    No Projects Found
+                                </div>
+                            )
                             )
                         }
                 </div>

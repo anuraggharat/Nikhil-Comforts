@@ -3,6 +3,7 @@ import { Jumbotron,Breadcrumb, BreadcrumbItem ,ListGroup, ListGroupItem,Badge  }
 import BlogCard from '../Components/Blogs/BlogCard'
 import {getBlogs} from '../API/Blogs'
 import { Spinner } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 
 export default function Blogs() {
@@ -50,15 +51,17 @@ export default function Blogs() {
                             <Spinner style={{ width: '5rem', height: '5rem' }} type="grow" color="primary" />
                             </div>
                             ):(
-                            <div className="col-lg-9 col-sm-12">
-                            {data.map((item)=>(
-                                <BlogCard blog={item} key={item._id} />
-                            )
-                                
-                            )}
-
-
-                        </div>
+                                data ? (
+                                    <div className="col-lg-9 col-sm-12">
+                                    {data.map((item)=>(
+                                        <BlogCard blog={item} key={item._id} />
+                                    ))}
+                                    </div>
+                                ) :( 
+                                    <div className="col-lg-9 col-sm-12">
+                                        <h2>Couldn't process blogs at this moment! Try again later.</h2>
+                                    </div>
+                                )
                         )}
                         <div className="col-lg-3 col-sm-12 pt-5">
                             <h2>Categories</h2>

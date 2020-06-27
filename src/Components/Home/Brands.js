@@ -1,6 +1,7 @@
 import Carousel from 'react-elastic-carousel'
 import React from 'react'
 import pic3 from '../../Images/pic3.jpg'
+import pic1 from '../../Images/pic2.png'
 
 
 

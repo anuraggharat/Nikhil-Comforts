@@ -58,8 +58,8 @@ const HomeSlider = (props) => {
         key={item.altText}
       >
         <div className={item.src}>
-          <div className="container homepage-container ">
-    <h4 className="display-4 text-white font-weight-bold mt-2">{item.text}</h4>
+          <div className="container homepage-container d-md-block">
+            <h4 className="display-4 text-white font-weight-bold mt-2">{item.text}</h4>
             <button className="btn btn-first px-4">Learn More.</button>
           </div>
         </div>

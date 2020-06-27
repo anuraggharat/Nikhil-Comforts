@@ -19,7 +19,12 @@ export default function Services() {
             <section className="py-5">
                 <div className="container px-4">     
                 <h1>Retro-Fitting</h1>
-                <p className="mt-4 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and .</p>
+                <p className="lead">Refurbishing the existing sites with a newer set of consumables and equipment which are energy efficient and enable you to comply with Leeds certification.</p>
+                <p className="lead">
+                    
+Nikhil Comforts undertakes retrofit projects for ageing installations to increase their lifecycle. The retrofit team has the experience in completing complex upgradation and replacement works for various workplaces and residentials. The retrofit team takes meticulous care in ensuring that day to day operations are not affected and is adept at proposing solutions which ensure minimum downtime of equipment.
+
+                </p>
                 <img src={Service1} alt="Home Imag" className="w-100" height="250px"  />     
                 <div className="row mt-5">
                     <ServicesCard imagesource={Service1} />

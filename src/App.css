@@ -33,6 +33,9 @@ li{
 .bg-first{
   background-color:var(--primary-blue)  ;
 }
+.display-para{
+  font-size: 1.2rem;
+}
 .home-slider-image{
   height: 100vh;
 }
