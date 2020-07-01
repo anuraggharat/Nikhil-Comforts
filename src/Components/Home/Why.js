@@ -12,10 +12,10 @@ export default function Why() {
                 <Heading title="Why Choose Us?" />
                 <div className="container p-5">
                     <div className="row px-5">
-                        <HomeCard imgsource={Img1} title="Fastest Service" />
-                        <HomeCard imgsource={Img2} title="Adherence To Schedule"/>
-                        <HomeCard imgsource={Img3}  title="Awesome Support"/>
-                        <HomeCard imgsource={Img4}  title="Pursuit To Excellence"/>
+                        <HomeCard imgsource={Img1} title="Fastest Service" text="We commit to work with passion and pursue to provide excellent results before the deadline!" />
+                        <HomeCard imgsource={Img2} title="Adherence To Schedule" text="With our proven track of Project Management capabilities, we strictly follow and comply with an efficient schedule!"/>
+                        <HomeCard imgsource={Img3}  title="Awesome Support" text="You will find us to be the perfect match with a solid and logistical supportive team to always be there for you!"/>
+                        <HomeCard imgsource={Img4}  title="Pursuit To Excellence" text="Our belief in constant innovations and desire to excel at what we do best, keeps us upping our game!"/>
                     </div>
                 </div>
         </section>

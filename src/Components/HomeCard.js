@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function HomeCard({imgsource,title}) {
+export default function HomeCard({imgsource,title,text}) {
     return (
         <div className="col-lg-3 col-sm-6 px-5 text-center">
         <div className="row py-2">
@@ -13,7 +13,7 @@ export default function HomeCard({imgsource,title}) {
         </div>
         <div className="row">
         <p className="text-muted">
-        Lorem ipsum dolor sit amet consectetur adipiscing elit proin leo ornare!
+        {text}
 
         </p>
         </div>
